@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import "base/vars.scss";
+@import "base/resetEricMeyer";
+
+html, body {
+    height: 100%;
+    min-width: 320px; 
+} 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border: none;
+}
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: 1;
+}
+.wrapper {
+    // overflow: auto;
+    min-height: 100%;
+    display: flex;
+}
+.page {
+    flex: 1 1 auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@import "./blocks/side-menu";
+@import "./blocks/main-page";
+@import "./blocks/page-table";
+@import "./blocks/page__footer";
+@import "./blocks/media-queries";

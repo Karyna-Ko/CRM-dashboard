@@ -1,0 +1,16 @@
+@media (max-width: $tablet) {
+    .page__header {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .page__search {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
